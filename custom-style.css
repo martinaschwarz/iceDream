@@ -1,0 +1,35 @@
+/* Text style for title in header */
+#logo-header {font-family: 'Pacifico', cursive; font-size: 30px; padding: 10px; }
+/* Text / colour style for title in footer */
+#logo-footer {font-family: 'Pacifico', cursive; font-size: 20px; padding: 10px; color: #7c7c7d; }
+/* Text style / positioning for title in carousel */
+#main-title {font-family: 'Pacifico', cursive; font-size: 70px; padding: 40px; position: absolute; z-index: 1; width: 100%; display: flex; justify-content: center; }
+/* Colour style / positioning for shopping cart item in header */
+#navbarDropdown {color: #f9d100; margin-right: 20px; }
+/* Text style for tagline */
+#tagline {font-size: 1.75rem; font-weight: 300; line-height: 1.2; font-style: italic; text-align: center; }
+/* Colour style / positioning for login error messages */
+#login-error {color: #b1063a; margin-bottom: 10px; display: none; }
+
+/* Text style for additional custom heading class */
+.display-5 {font-size: 2.75rem; font-weight: 300; line-height: 1.2; }
+/* Colour style classes for custom button colours */
+.btn-outline-custom {color: #f9d100; border-color: #f9d100; }
+.btn-outline-custom:hover {background-color: #f9d100; color: black; }
+.btn-outline-clear {color: lightgrey; border: none; }
+.btn-outline-custom:hover {color: grey; border: none; }
+.qty-custom {border-color: lightgrey; }
+/* Size class for title in carousel */
+.carousel-inner {height: 300px; }
+
+/* Code to remove the increase/decrease arrows inside the quantity text field for each product */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
