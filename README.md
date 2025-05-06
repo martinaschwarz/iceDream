@@ -1,2 +1,10 @@
 # iceDream
-iceDream - a web shop selling Ireland's best ice cream
+
+A web shop selling Ireland's best ice cream
+
+## Built With
+
+- JavaScript
+- Bootstrap
+
+
